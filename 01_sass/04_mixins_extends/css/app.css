@@ -11,6 +11,22 @@
 }
 .msg .msg-title, .msg-error .msg-title, .msg-warning .msg-title, .msg-valid .msg-title {
   font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.msg-valid {
+  background-color: green;
+  border: 1em solid black;
+}
+
+.msg-warning {
+  background-color: yellow;
+  border: 1em solid black;
+}
+
+.msg-error {
+  background-color: red;
+  border: 1em solid black;
 }
 
 /*# sourceMappingURL=css/app.css.map */
