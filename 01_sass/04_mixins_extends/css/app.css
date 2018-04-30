@@ -1,0 +1,16 @@
+.bloc {
+  background-color: blue;
+  border: 1rem solid red;
+}
+
+.msg, .msg-error, .msg-warning, .msg-valid {
+  padding: 1em;
+  border-radius: 1em;
+  border: 1em;
+  margin: 1em;
+}
+.msg .msg-title, .msg-error .msg-title, .msg-warning .msg-title, .msg-valid .msg-title {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=css/app.css.map */

@@ -1,0 +1,19 @@
+.element-1, .element-5, .element-7, .element-10 {
+  color: #0000FF;
+}
+
+.element-2, .element-3, .element-4, .element-6, .element-8, .element-9 {
+  color: #FF0000;
+}
+
+.bloc {
+  margin: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  margin-top: 4rem;
+}
+
+/*# sourceMappingURL=css/app.css.map */

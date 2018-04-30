@@ -1,0 +1,35 @@
+@mixin form1($backgcolor){
+    background-color: $backgcolor;
+}
+
+@mixin form2($borderCS){
+    border: $borderCS;
+}
+
+.bloc{
+    @include form1(blue);
+    @include form2(1rem solid red);
+}
+
+.msg{
+    padding: 1em;
+    border-radius: 1em;
+    border: 1em;
+    margin: 1em;
+    .msg-title{
+        font-weight: bold;
+        
+    }
+}
+
+.msg-valid{
+    @extend .msg;
+}
+
+.msg-warning{
+    @extend .msg;
+}
+
+.msg-error{
+    @extend .msg;
+}

@@ -1,0 +1,32 @@
+.bloc p {
+  color: #FFFFFF;
+  background-color: #0000FF;
+}
+
+.other-bloc p {
+  padding: 1rem;
+  border: 1rem solid #000000;
+}
+
+.element {
+  font-weight: bold;
+}
+
+.other-element {
+  font-style: italic;
+}
+
+a {
+  text-decoration: underline;
+  color: #a00;
+}
+a:visited {
+  color: #844;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #800;
+}
+
+/*# sourceMappingURL=css/app.css.map */

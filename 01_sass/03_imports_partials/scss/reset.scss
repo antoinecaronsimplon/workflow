@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+    padding: 0;
+    color: 	#000000;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: none;
+    font-style: none;
+    text-decoration: none;
+
+	&:visited, &:hover, &:focus, &:active {
+        text-decoration: none;
+        color: none;
+        background: none;
+	}
+}

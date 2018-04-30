@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+  font-weight: none;
+  font-style: none;
+  text-decoration: none;
+}
+*:visited, *:hover, *:focus, *:active {
+  text-decoration: none;
+  color: none;
+  background: none;
+}
+
+.bloc p {
+  color: #FFFFFF;
+  background-color: #0000FF;
+}
+
+.other-bloc p {
+  padding: 1rem;
+  border: 1rem solid #000000;
+}
+
+.element {
+  font-weight: bold;
+}
+
+.other-element {
+  font-style: italic;
+}
+
+a {
+  text-decoration: underline;
+  color: #a00;
+}
+a:visited {
+  color: #844;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #800;
+}
+
+/*# sourceMappingURL=css/app.css.map */

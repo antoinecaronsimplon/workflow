@@ -1,0 +1,23 @@
+$color-duo: #0000FF;
+$color-commodo: #FF0000;
+$bloc-margin: 2rem;
+$bloc-padding: 1rem;
+$p-margin: 4rem;
+
+.element-1, .element-5, .element-7, .element-10{
+    color: $color-duo;
+}
+
+.element-2, .element-3, .element-4, .element-6, .element-8, .element-9{
+    color: $color-commodo;
+}
+
+.bloc{
+    margin: $bloc-margin;
+    padding-top: $bloc-padding;
+    padding-bottom: $bloc-padding;
+}
+
+p{
+    margin-top: $p-margin;
+}
